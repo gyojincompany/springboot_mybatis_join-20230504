@@ -1,5 +1,7 @@
 package com.gyojincompany.join.dao;
 
-public interface IDao {
+import com.gyojincompany.join.dto.BoardDto;
 
+public interface IDao {
+	public BoardDto listDao(String id);
 }
